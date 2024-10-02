@@ -1,83 +1,92 @@
 1. Provide a high-level description (ie, using minimal amount of technical jargon) of each problem
 in no more than 100 words.
 
-Problem 1 (Name and Age):
-    sys library is imported to take command line argument for variables name and age using argv function.
-    stdio library is imported to print standard output of 'name is age years old' using writeln function.
+Problem 1 (Quadratic Equation):
+    Three variable a,b and c are assigned value from command line.
+    if the variable of x^2 is 0 than a message is printed. If discriminant is 0 than a message is printed.
+    once both the roots are founded using formula and math library, both the roots are printed as standard output.
 
-Problem 2 (Greet Three):
-    sys library is imported to take command line argument for variables name1, name2 and name3 using argv function.
-    stdio library is imported to print standard output of 'Hi name3, name2, and name1.' using writeln function.
+Problem 2 (Wind Chill):
+    Two variables t and v are assigned value from command line.
+    if the value of t exceeds 50 than a message is printed. If the value of v is less than or equal to 3 than a message is printed.
+    Using formula the value is stored in variable w and it is printed as standard output.
 
 Problem 3 (Day of the Week):
-    sys library is imported to take command line argument for variables m, d and y using argv function.
-    Using formulas provided new variables y0, x0, m0 and dow are assigned value.
-    stdio library is imported to print standard output of variable 'dow' using writeln function.
+    Three variables m,d and y are assigned value as command line.
+    using formula value is stored in dow variable.
+    using given information the value of dow is assigned a day and that is printed as standard output.
 
-Problem 4 (Three Sort):
-    sys library is imported to take command line argument for variables x, y and z using argv function.
-    using min function new variable mn is assigned value of minimum value of x, y and z.
-    using max function new variable mx is assigned value of maximum value of x, y and z.
-    using formula new variable 'a' is assigned value.
-    stdio library is imported to print standard output 'mn a mx' using writeln function.
+Problem 4 (Six-sided Die):
+    using stdrandom library any number is picked between 1 to 6.
+    using pattern the number is printed as shown on the top of the dice.
 
-Problem 5 (Body Mass Index):
-    sys library is imported to take command line argument for variables w and h using argv function.
-    Using formula provided new variable bmi is assigned a value.
-    stdio library is imported to print standard output of variable 'bmi' using writeln function.
+Problem 5 (Playing Card):
+    using stdrandom library club and card number is picked.
+    every number of value of club is assigned to the name of club.
+    which ever club is selected the name of the card with its number is printed as stadard output.
 
-Problem 6 (Wind Chill):
-    sys library is imported to take command line argument for variables t and v using argv function.
-    Using formula provided new variable w is assigned value.
-    stdio library is imported to print standard output of variable 'w' using writeln function.
+Problem 6 (Dragon Curve):
+    Variable n is assigned value from command line.
+    F value is given to two variables.
+    for loop is used to store the value of the dragon curve which is formed using the idea provided in question.
+    the value of dragon is than printed as standard output.
 
-Problem 7 (Gravitational Force):
-    sys library is imported to take command line argument for variables m1, m2 and r using argv function.
-    Variable G is created and assigned value of gravitational constant.
-    using formula provided new variable f is assigned value.
-    stdio library is imported to print standard output of variable 'f' using writeln function.
+Problem 7 (Greatest Common Divisor):
+    Two variable p and q are assigned value from command line.
+    using mac function maximum number is stored in mx and 1 is assigned to gcd variable.
+    for loop is used to find the number which divides both the number and is than stored in gcd.
+    the value of gcd is than printed as standard output.
 
-Problem 8 (Gambler's Ruin):
-    sys library is imported to take command line argument for variables n1, n2 and p using argv function.
-    using formula provided new variables q, p1 and p2 are assigned value.
-    stdio library is imported to print standard output of 'p1 p2' using writeln function.
+Problem 8 (Root Finding):
+    three variables k,c and epsilon are assigned value from command line.
+    value of c is given to t and while loop is used until the k_th root is greater than epsilon.
+    th new value is given to t upto epsilon decimal place.
+    value of t is printed as standard output.
 
-Problem 9 (Waiting Time):
-    sys library is imported to take command line argument for variables lam and t using argv function.
-    math library is imported to provide exp function to assign new value to new variable p.
-    stdio library is imported to print standard output of variable p using writeln function.
+Problem 9 (Sum of Powers):
+    Two variable n and k is assigned value from command line.
+    0 is given to the sum variable.
+    for loop is used from  range 1 to n and the sum of powers is assigned to sum.
+    sum is than printed as standard output.
 
-Problem 10 (Cartesian Coordinates):
-    sys library is imported to take command line argument for variables r and theta using argv function.
-    math library is imported to provide pi, cos and sin functions to assign value to new variables v, x and y.
-    stdio library is imported to print standard output of 'x y' using writeln function.
+Problem 10 (Factorial Function):
+    variable n is assigned value from command line.
+    if n is 0 than 1 is printed as the 0!=1.
+    using for loop from range 1 to n the value of i than mutiplied with the previous value stored in fact and is than stored in fact.
+    value of fact is than printed as standard output.
 
-Problem 11 (Great Circle Distance):
-    sys library is imported to take command line argument for variables x1, x2, y1 and y2 using argv function.
-    math library is imported to provide radians functions to assign value to new variables x1_rad, x2_rad, y1_rad and y2_rad.
-    using formula provided and using scos, sin and cos function new variable d is assigned value.
-    stdio library is imported to print standard output of variable d using writeln function.
+Problem 11 (Fibonacci Function):
+    Variable n is assigned value from command line.
+    a,b and i are given values,
+    while loop is used until i is less than or equal to n and the variable c has given the value of sum of a and b and than a is exchanged with b and b with c.
+    value of b is than printed as standard output.
 
-Problem 12 (Snell's Law):
-    sys library is imported to take command line argument for variables theta1, n1 and n2 using argv function.
-    math library is imported to provide radians, degree, asin and sin functions to assign value to new variable theta1_rad and theta2 using formula provided.
-    stdio library is imported to print standard output of variable theta2 using writeln function.
+Problem 12 (Primality Test):
+    Variable n is assigned value from command line.
+    i is given 2 as value.
+    while loop is used until i divides n and once the number is found than its compared if its prime.
+    If its prime than True or else False is printed as standard output.
 
-Problem 13 (Uniform Random Numbers):
-    sys library is imported to take command line argument for variables a and b using argv function.
-    stdrandom library is imported to provide uniformFloat function to assign random Float value to new variables x1, x2 and x3.
-    using formula provided new variables mean, var and std_dev are assigned value.
-    stdio library is imported to print standard output of 'mean var std_dev' using writeln function.
+Problem 13 (Counting Primes):
+    Variable n is assigned value from command line.
+    count is given 0 value.
+    for loop is used from range 2 to n and j is given value 2.
+    while loop is than used until value of j is same as value of i divided by j.
+    if j divides i than loop is breaked and once the prime number is found than the value of count is increased by one.
+    finally value of count is printed as standard output.
 
-Problem 14 (Die Roll):
-    sys library is imported to take command line argument for variables n using argv function.
-    stdrandom library is imported to provide uniformInt function to assign random integer value to new variables die_roll1 and die_roll2.
-    stdio library is imported to print standard output of 'die_roll1 + die_roll2' using writeln function.
+Problem 14 (Perfect Numbers):
+    Variable n is assigned value from command line.
+    for loop is used from range 2 to n and total is assigned 0 value.
+    for loop is used from range 1 to the half of i and if the number divides i than the sum of total and j is given to total.
+    and once the value of total is same as i than its printed as standard output.
 
-Problem 15 (Triangle Inequality):
-    sys library is imported to take command line argument for variables x, y and z using argv function.
-    new variable exp is assigned value "True" or "False" by using boolean 'and'.
-    stdio library is imported to print standard output of variable exp using writeln function.
+Problem 15 (Ramanujan Numbers):
+    Variable n is assigned value from command line.
+    a is given 1 as value.
+    while loops are used for every variable until the cube of the variable is equal to n.
+    once the numbers is found who has the sum of the cube of two number than its check with the other number.
+    if both of them matched than the value and sum of the cubes of number is printed as described in question as standard output.
 
 2. Did you receive help from anyone? List their names, status (classmate, course staff, other), and
 the nature of help received.

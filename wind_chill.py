@@ -1,12 +1,20 @@
 import stdio
 import sys
 
-# variables t and v are assigned value from command line argument
+# variable t and v are assigned values from command line arguments
 t=float(sys.argv[1])
 v=float(sys.argv[2])
 
-# value is assigned to variable w
-w=35.74+0.6215*t+(0.4275*t-35.75)*(v**0.16)
+# variable t should have temperature less than 50 F
+if t > 50:
+    stdio.writeln("Value of t must be <= 50 F")
+else:
+    # variable v should have speed greater than 3 mph
+    if v <= 3:
+        stdio.writeln("Value of v must be > 3 mph")
+    else:
+        #using formula of effective temperature
+        w=35.74+0.6215*t+(0.4275*t - 35.75)*v**0.16
 
-# w is printed as the standard output
-stdio.writeln(w)
+        # variable w would be printed as the standard output
+        stdio.writeln(w)
