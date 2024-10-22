@@ -1,92 +1,45 @@
-1. Provide a high-level description (ie, using minimal amount of technical jargon) of each problem
-in no more than 100 words.
+1. For each problem, provide in more than 100 words, a short, high-level description of the problem;
+your approach to solve it; and any issues you encountered and if/how you managed to solve them.
 
-Problem 1 (Quadratic Equation):
-    Three variable a,b and c are assigned value from command line.
-    if the variable of x^2 is 0 than a message is printed. If discriminant is 0 than a message is printed.
-    once both the roots are founded using formula and math library, both the roots are printed as standard output.
+Problem 1 (Reverse):
+	a variable was created to accept standard input.
+	then n is given length of a variable and for loop was used so interchange the first and last variable until the half of the length of n.
+	then for loop is used with if condition to print the word backward with space in between alphabets.
 
-Problem 2 (Wind Chill):
-    Two variables t and v are assigned value from command line.
-    if the value of t exceeds 50 than a message is printed. If the value of v is less than or equal to 3 than a message is printed.
-    Using formula the value is stored in variable w and it is printed as standard output.
+Problem 2 (Euclidean Distance):
+	a variable n is given command line value as argument.
+	then x and y lists are created and using for loop the standard input value is inserted in those lists.
+	new variable distance is given 0.0 value and using for loop the square of difference of two elements from list is added to distance.
+	square root of distance is then printed as standard output.
 
-Problem 3 (Day of the Week):
-    Three variables m,d and y are assigned value as command line.
-    using formula value is stored in dow variable.
-    using given information the value of dow is assigned a day and that is printed as standard output.
+Problem 3 (Birthday Problem):
+	first 365 value is given to days_per_year and trials is given value as command line argument, count is assigned 0 value.
+	for loop is used to create an array birthdays and infinte loop is used to increase count by 1 and insert random date to birthday variable.
+	if the value of birthday in array is found then the loop is breaked and the value of count/trial is printed else true value is given to birthday in birthdays.
 
-Problem 4 (Six-sided Die):
-    using stdrandom library any number is picked between 1 to 6.
-    using pattern the number is printed as shown on the top of the dice.
+Problem 4 (Transpose):
+	m and n variables are assigned value as command line arguments.
+	2d array a is created of size mXn and value is given as none.
+	for loop is used to insert value to matrix using standard input.
+	2d array c is created of size nXm and value is given none.
+	for loop is used to insert the value of a matrix to c matrix in transpose way.
+	c matrix is than printed as transpose of a matrix.
 
-Problem 5 (Playing Card):
-    using stdrandom library club and card number is picked.
-    every number of value of club is assigned to the name of club.
-    which ever club is selected the name of the card with its number is printed as stadard output.
+Problem 5 (Pascal's Triangle):
+	n variable is assigned value as command line argument.
+	a 1d matrix of n+1 size is created.
+	for loop is used to insert an aray of a[element] so an 2d array is formed.
+	for loop is used to change the value of a 2d array.
+	for loop is used to print the 2 dimensional array.
 
-Problem 6 (Dragon Curve):
-    Variable n is assigned value from command line.
-    F value is given to two variables.
-    for loop is used to store the value of the dragon curve which is formed using the idea provided in question.
-    the value of dragon is than printed as standard output.
+Problem 6 (Generating the Waltz):
+	one minuetmeasures and one triomeasures array are created of 2d array with length 11X16 and 6X16 respectively.
+	for loops are used to insert the values associated with the matrice given in question.
+	again for loops are used to print the random 16 minuet and 16 trio numbers.
 
-Problem 7 (Greatest Common Divisor):
-    Two variable p and q are assigned value from command line.
-    using mac function maximum number is stored in mx and 1 is assigned to gcd variable.
-    for loop is used to find the number which divides both the number and is than stored in gcd.
-    the value of gcd is than printed as standard output.
-
-Problem 8 (Root Finding):
-    three variables k,c and epsilon are assigned value from command line.
-    value of c is given to t and while loop is used until the k_th root is greater than epsilon.
-    th new value is given to t upto epsilon decimal place.
-    value of t is printed as standard output.
-
-Problem 9 (Sum of Powers):
-    Two variable n and k is assigned value from command line.
-    0 is given to the sum variable.
-    for loop is used from  range 1 to n and the sum of powers is assigned to sum.
-    sum is than printed as standard output.
-
-Problem 10 (Factorial Function):
-    variable n is assigned value from command line.
-    if n is 0 than 1 is printed as the 0!=1.
-    using for loop from range 1 to n the value of i than mutiplied with the previous value stored in fact and is than stored in fact.
-    value of fact is than printed as standard output.
-
-Problem 11 (Fibonacci Function):
-    Variable n is assigned value from command line.
-    a,b and i are given values,
-    while loop is used until i is less than or equal to n and the variable c has given the value of sum of a and b and than a is exchanged with b and b with c.
-    value of b is than printed as standard output.
-
-Problem 12 (Primality Test):
-    Variable n is assigned value from command line.
-    i is given 2 as value.
-    while loop is used until i divides n and once the number is found than its compared if its prime.
-    If its prime than True or else False is printed as standard output.
-
-Problem 13 (Counting Primes):
-    Variable n is assigned value from command line.
-    count is given 0 value.
-    for loop is used from range 2 to n and j is given value 2.
-    while loop is than used until value of j is same as value of i divided by j.
-    if j divides i than loop is breaked and once the prime number is found than the value of count is increased by one.
-    finally value of count is printed as standard output.
-
-Problem 14 (Perfect Numbers):
-    Variable n is assigned value from command line.
-    for loop is used from range 2 to n and total is assigned 0 value.
-    for loop is used from range 1 to the half of i and if the number divides i than the sum of total and j is given to total.
-    and once the value of total is same as i than its printed as standard output.
-
-Problem 15 (Ramanujan Numbers):
-    Variable n is assigned value from command line.
-    a is given 1 as value.
-    while loops are used for every variable until the cube of the variable is equal to n.
-    once the numbers is found who has the sum of the cube of two number than its check with the other number.
-    if both of them matched than the value and sum of the cubes of number is printed as described in question as standard output.
+Problem 7 (Playing the Waltz):
+	one measures variable was created to accept all the int value from generatewaltz file by using for loop  to use correct cord from two data/M and data/T files and then the file is played.
+	also messages are printed if the length of measure is not 32, less than 1 and greter than 176 for minuet and less than 1 and greater than 96.
 
 2. Did you receive help from anyone? List their names, status (classmate, course staff, other), and
 the nature of help received.
