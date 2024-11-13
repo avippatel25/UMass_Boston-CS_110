@@ -1,18 +1,27 @@
 import stdio
 
-# a is assigned value from standard input
-a=stdio.readAllStrings()
 
-# n is given the length of a
-n=len(a)
+# Entry point (DO NOT EDIT).
+def main():
+    a = stdio.readAllStrings()
+    _reverse(a)
+    for v in a:
+        stdio.writef("%s ", v)
+    stdio.writeln()
 
-#for loop is runed till n/2 to exchange the first and last elements
-for i in range(0,n//2):
-    a[i],a[n-i-1] = a[n-i-1],a[i]
 
-# for loop is runed till n and then the value is printed in correct format
-for i in range(0,n):
-    if i < n-1:
-        stdio.write(a[i]+" ")
-    else:
-        stdio.writeln(a[i])
+# Reverses a in place, ie, without creating a new list.
+def _reverse(a):
+    # length of a is given to n variable so that the loop can be runed
+    n=len(a)
+    #loop is runed till the half the length of a
+    for i in range(0,n//2):
+        # temp variable is used to exchange value of first and last variable
+        temp=a[i]
+        a[i]=a[n-i-1]
+        a[n-i-1]=temp
+    return a
+
+
+if __name__ == "__main__":
+    main()

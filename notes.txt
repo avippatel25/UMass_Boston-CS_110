@@ -1,45 +1,37 @@
-1. For each problem, provide in more than 100 words, a short, high-level description of the problem;
+1. For each problem, provide in no more than 100 words, a short, high-level description of the problem;
 your approach to solve it; and any issues you encountered and if/how you managed to solve them.
 
 Problem 1 (Reverse):
-	a variable was created to accept standard input.
-	then n is given length of a variable and for loop was used so interchange the first and last variable until the half of the length of n.
-	then for loop is used with if condition to print the word backward with space in between alphabets.
+	in reverse function using for loop and temp variable the first and last value are exchanged until it reaches the half of the length of an array
 
 Problem 2 (Euclidean Distance):
-	a variable n is given command line value as argument.
-	then x and y lists are created and using for loop the standard input value is inserted in those lists.
-	new variable distance is given 0.0 value and using for loop the square of difference of two elements from list is added to distance.
-	square root of distance is then printed as standard output.
+	here distance function was created in which the the sqrt of the equation is the returned to the main function which prints distance as standard output
 
-Problem 3 (Birthday Problem):
-	first 365 value is given to days_per_year and trials is given value as command line argument, count is assigned 0 value.
-	for loop is used to create an array birthdays and infinte loop is used to increase count by 1 and insert random date to birthday variable.
-	if the value of birthday in array is found then the loop is breaked and the value of count/trial is printed else true value is given to birthday in birthdays.
+Problem 3 (Transpose):
+	here in transpose function the rows were given as column and column as rows in new array
+	then the value were taken from the main array into the new array which is then returned.
 
-Problem 4 (Transpose):
-	m and n variables are assigned value as command line arguments.
-	2d array a is created of size mXn and value is given as none.
-	for loop is used to insert value to matrix using standard input.
-	2d array c is created of size nXm and value is given none.
-	for loop is used to insert the value of a matrix to c matrix in transpose way.
-	c matrix is than printed as transpose of a matrix.
+Problem 4 (Palindrome):
+	in palindrome function using for loop the first and last variable are compared to see if they are same and it runs until the half of the length of given string and if is same then is printed true or ese false as standard output
 
-Problem 5 (Pascal's Triangle):
-	n variable is assigned value as command line argument.
-	a 1d matrix of n+1 size is created.
-	for loop is used to insert an aray of a[element] so an 2d array is formed.
-	for loop is used to change the value of a 2d array.
-	for loop is used to print the 2 dimensional array.
+Problem 5 (Sine Function):
+	in sin function we used the while loop to find the value of sin of the equation x - ((x^3)/3!) + ((x^5)/5!) - ((x^7)/7!) +...
+	then the total is returned which is then printed as standard output
 
-Problem 6 (Generating the Waltz):
-	one minuetmeasures and one triomeasures array are created of 2d array with length 11X16 and 6X16 respectively.
-	for loops are used to insert the values associated with the matrice given in question.
-	again for loops are used to print the random 16 minuet and 16 trio numbers.
+Problem 6 (RSA Library):
+	three function keygen, encrypt and decrypt was created in which in encrypt and decrypt the value of equation was returned while in keygen
+	the prime function was created in which prime numbers were found and then using it n, e and d was returned
 
-Problem 7 (Playing the Waltz):
-	one measures variable was created to accept all the int value from generatewaltz file by using for loop  to use correct cord from two data/M and data/T files and then the file is played.
-	also messages are printed if the length of measure is not 32, less than 1 and greter than 176 for minuet and less than 1 and greater than 96.
+Problem 7 (Keygen Program): 
+	two values were taken from command line argument and using rsa keygen function values of n, e and d were then printed as standard output. 
+
+Problem 8 (Encryption Program): 
+	Two values were assigned from command line argument and then using rsa bitlength fuction the width was decided.
+	then message was taken from standard input and then using for loop and rsa encrypt and dec2bin function the message was encrypted using every character of message.
+
+Problem 9 (Decryption Program):
+	Two values were assigned from command line argument and then using rsa bitlength fuction the width was decided.
+	then message was taken from standard input and then using for loop and rsa bin2dec and decrypt function the message was decrypted using every character of message.
 
 2. Did you receive help from anyone? List their names, status (classmate, course staff, other), and
 the nature of help received.
