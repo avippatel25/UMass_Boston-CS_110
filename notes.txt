@@ -1,37 +1,62 @@
 1. For each problem, provide in no more than 100 words, a short, high-level description of the problem;
 your approach to solve it; and any issues you encountered and if/how you managed to solve them.
 
-Problem 1 (Reverse):
-	in reverse function using for loop and temp variable the first and last value are exchanged until it reaches the half of the length of an array
+Problem 1 (Sum of Integers):
+    in this program recursion is used where the sum of n integers is calculated where a function is called with the previous nuber of integer
+    and the integer is added with it.
 
-Problem 2 (Euclidean Distance):
-	here distance function was created in which the the sqrt of the equation is the returned to the main function which prints distance as standard output
+Problem 2 (Bit Counts):
+    here in this program the string where the binary number is passed
+    and then using two different function the value of each element is checked whether its 0 or  and then
+    the number of ones and no of zeros and total elements of string is returned
 
-Problem 3 (Transpose):
-	here in transpose function the rows were given as column and column as rows in new array
-	then the value were taken from the main array into the new array which is then returned.
+Problem 3 (String Reversal):
+    in this program a string is passed and using recursion a function
+    is called where the string of length removing last element is passed and then the last element is returned in that function
 
 Problem 4 (Palindrome):
-	in palindrome function using for loop the first and last variable are compared to see if they are same and it runs until the half of the length of given string and if is same then is printed true or ese false as standard output
+    in this program the the string is passed where then the function is called and the string's first and last element is checked
+    if its same then same function is called passing a new string without
+    first and last element and once all condition satisfies then true is returned or else false
 
-Problem 5 (Sine Function):
-	in sin function we used the while loop to find the value of sin of the equation x - ((x^3)/3!) + ((x^5)/5!) - ((x^7)/7!) +...
-	then the total is returned which is then printed as standard output
+Problem 5 (Password Checker):
+    there were 5 condition so usinf a function and if anf for loop the 5 condition are checked
+    and once all are true than true is returned or else even if one condition is false then false is returned
+    and then true or false is printed as standard output
 
-Problem 6 (RSA Library):
-	three function keygen, encrypt and decrypt was created in which in encrypt and decrypt the value of equation was returned while in keygen
-	the prime function was created in which prime numbers were found and then using it n, e and d was returned
+Problem 6 (Point Data Type):
+    here in this function two points x and y are initialized
+    and using euclidean distance formula the distance between two instance points is returned
+    and is printed
 
-Problem 7 (Keygen Program): 
-	two values were taken from command line argument and using rsa keygen function values of n, e and d were then printed as standard output. 
+Problem 7 (Interval Data Type):
+    here in this function two points are initialized as lower bound and upper bound
+    and using them two things are checked if a point is in that interval and if a point is intersecting that interval line
+    and true or false is returned
 
-Problem 8 (Encryption Program): 
-	Two values were assigned from command line argument and then using rsa bitlength fuction the width was decided.
-	then message was taken from standard input and then using for loop and rsa encrypt and dec2bin function the message was encrypted using every character of message.
+Problem 8 (Rectangle Data Type):
+    here using the upper program the width and height of rectangle is taken
+    and using contains and intersects function these conditions are checked if another rectangle is intersecting that rectangle
+    and if they satisfy these condition than true or false is printed
 
-Problem 9 (Decryption Program):
-	Two values were assigned from command line argument and then using rsa bitlength fuction the width was decided.
-	then message was taken from standard input and then using for loop and rsa bin2dec and decrypt function the message was decrypted using every character of message.
+Problem 9 (Particle Representation):
+    in these program using given information the blob is created where we use intialization of variables and using mass we identify
+    the particle as blob or not and we measure the distance between two blob and then
+    return as standard output using euclidean distance formula
+
+Problem 10 (Particle Identification):
+    here in this program using previous program the particle is indentified whether its blob or not using condition
+    if the mass of blob is greater than pixel and if passed threshold given
+    using for loop we travel across each pixel in x and y axis and identify the blob
+
+Problem 11 (Particle Tracking):
+    using previous program after identifying the particle we check its nearby
+    pixels to see where the particle is travelling and then we find the nearest distance of the previous particle position with its current positions
+    and then we return the distance ad print them
+
+Problem 12 (Estimating Avogadro's Constant):
+    using given formulas to get the displacement and then var and then k we calculate avogadros constant
+    and then we print them as standard output and we do used the given values of global variable like ETA, RHO, T and R.
 
 2. Did you receive help from anyone? List their names, status (classmate, course staff, other), and
 the nature of help received.
